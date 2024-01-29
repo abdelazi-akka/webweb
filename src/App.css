@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=K2D:wght@100;200;300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -10,22 +10,181 @@
 
 
 }
+body{
+    background: #000000;
+}
+.containerHomeprincipa{
+width: 100%;
+height: 99.4vh;
+margin: 0;
+padding: 0;
+background: #e16161;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.contanetimga{
+    width: 100%;
+ height: 100%;
+ position: absolute;
+ z-index: 9;
+ 
+}
+.contanetimga img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    
+ 
+}
+.containerHomeprincipa .contanetimgafilter{
+width: 100%;
+height: 100%;
+position: absolute;
+  background-color: #12121286;  
+z-index: 999;
+ 
+}
+.containerHomeprincipa .contanetcontext{
+
+
+flex-shrink: 0;
+
+z-index: 99999;
+color: #FFF;
+text-align: center;
+font-family: 'Inter', sans-serif;
+display: block;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+.containerHomeprincipa .contanetcontext h1{
+
+    width: 771px;
+    height: 243px;
+    flex-shrink: 0;
+font-size:64px;
+}
+.containerHomeprincipa .contantlogo{
+
+
+position: absolute;
+top: 5%;
+
+left: 5%;
+z-index: 99999;
+}
+.containerHomeprincipa .contantlogo h2{
+color: #FFA500;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.containerHomeprincipa .contentLoginPage{
+    width: 290px;
+  height: 70px;
+    flex-shrink: 0;
+    border-radius: 52px 0px 0px 52px;
+background: rgba(217, 217, 217, 0.80);
+
+
+
+position: absolute ;
+top: 5%;
+right: 0;
+z-index: 99999;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.containerHomeprincipa .contentLoginPage ul{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 40px;
+}
+.containerHomeprincipa .contentLoginPage ul li{
+    width:38px ;
+height: 38px ;
+cursor: pointer;
+}
+.containerHomeprincipa .contentLoginPage ul li a svg{
+width:38px ;
+height: 38px ;
+}
+.containerHomeprincipa .contentLoginPage h2{
+    color: #FFA500;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.containerHomeprincipa .contentbotom {
+    width: auto;
+
+    position: absolute ;
+    bottom:  10%;
+   margin: auto;
+    z-index: 99999;
+    background-color: #e1616100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+.containerHomeprincipa .contentbotom h1{
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.containerHomeprincipa .contentbotom a {
+    position: relative ;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.containerHomeprincipa .contentbotom a .party2{
+    position: absolute ;
+    top: 30%;
+    
+    margin: auto;
+}
 
 
 .containerAll {
+    
     width: 100%;
     min-height: 100vh;
     background-color: #9c9c9c00;
-    display: flex;
+    display: none;
     flex-direction: row-reverse;
 
 
 }
 
 .containerAllnav {
+    
     width: 100%;
     height: 70px;
-    background: orange;
+    background: #ffa500;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,9 +192,11 @@
     padding-right: 2em;
     position: fixed;
     z-index: 99999;
+ 
 }
 
 .contenall {
+    display: none;
     width: 100%;
     min-height: auto;
     background-color: #ffffff;
