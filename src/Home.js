@@ -80,10 +80,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="vd">
-      <img src='https://m.media-amazon.com/images/I/71YxTXQ2YYL._AC_SX679_.jpg' alt=''/>
-      <Vidio/>
-    </div>
+    
     
     <div className="todos">
      <Sidebar handleChange={handleChange} />
